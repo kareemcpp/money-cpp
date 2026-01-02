@@ -1,5 +1,15 @@
 # Money (C++)
 
+> Project #1 – Foundations: correctness, testing, and design
+
+## Why this project?
+
+This is my first foundational C++ project.
+The goal was not complexity, but correctness:
+- Define behavior before implementation
+- Enforce invariants
+- Test edge cases explicitly
+
 A small, type-safe monetary value primitive implemented in modern C++.
 
 ## Motivation
