@@ -4,11 +4,7 @@
 
 // Constructor
 
-Money::Money(const MoneyValue value): _valueInCents(value){
-    if(value > MAX_VALUE_IN_CENTS){
-        throw std::overflow_error("Money value exceeds maximum allowed limit");
-    }
-}
+Money::Money(const MoneyValue value): _valueInCents(value) {}
 
 // Getter & Setter 
 

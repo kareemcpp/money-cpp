@@ -1,13 +1,15 @@
-#include <iostream> 
+#include <limits>
 #include <cstdint>
 
-using MoneyValue = uint32_t;
+using MoneyValue = std::uint32_t;
 
 class Money{
 
     MoneyValue _valueInCents;
 
 public:
+
+    static constexpr std::uint32_t MAX_VALUE_IN_CENTS = std::numeric_limits<std::uint32_t>::max();
 
 // Constructor
 
