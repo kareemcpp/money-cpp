@@ -11,7 +11,7 @@
 3. Invariants:
 
     - valueInCents >= 0
-    - valueInCents < MAX_VALUE 
+    - valueInCents < MAX_VALUE_IN_CENTS 
 
 4. Invalid input behavior:
 
